@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Urbanist:wght@300&display=swap'); */
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    background-color: rgb(56, 55, 55);
+ }
+ .container{
+  max-width: 85%;
+  margin: auto;
+ }
+ .flexSB {
+  display: flex;
+  justify-content: space-between;
+ }
+ .icon {
+  width: 40PX;
+  height: 40PX;
+  line-height: 40PX;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(27, 26, 26, 0.3);
+  color: #1eb2a6;
+  transition:0.5s;
+ }
+ .icon:hover{
+  cursor: pointer;
+  background-color: #fff;
+ }
+ a{
+  text-decoration: none;  
+ }
+ li{
+    list-style: none;
+ }
+ button{
+   background: none;
+ }
