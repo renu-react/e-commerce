@@ -1,0 +1,33 @@
+.auth_form{
+    background: rgb(10, 10, 72);
+    padding: 40px;
+        border-radius: 5px;
+}
+
+.form-s{
+    display: flex;
+    justify-content: center;
+}
+
+.form_head{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.form_group input{
+    width: 100%;
+}
+.form_head{
+    font-family: cursive;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+   
+}
+.auth_form input[type='file']{
+    color: #fff;
+    cursor: pointer;
+}
+/* .buy_btn{
+    padding-right: 20px;
+} */

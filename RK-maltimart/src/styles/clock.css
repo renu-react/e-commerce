@@ -1,0 +1,14 @@
+.clock_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5;
+    margin-left: 40px;
+}
+.clock_data{
+    display: flex;
+    align-items: center;
+    column-gap: 5px; 
+}
+.div{
+    text-align: center;
+}

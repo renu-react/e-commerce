@@ -1,0 +1,64 @@
+.hero_section{
+    background: var(--hero-bg);
+   
+}
+.hero_content h2{
+    color:var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+   
+
+}
+.hero_content p{
+    color:var(--primary-color);
+    line-height: 28px;
+    font-weight: 900;
+}
+.hero_section p:nth-child(1){
+    font-weight: 500;
+}
+.buy_btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: 20px;
+} 
+.hero_content{
+    padding-top: 45px;
+}
+.hero_subtitle {
+    font-weight: 700;
+}
+.text_center h2{
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-left: 38%;
+    
+}
+.timer_count{
+    background:rgb(207, 207, 210);
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.timer_img{
+    width: 15%;
+    height: 15%;
+    margin-left: 72%;
+    margin-bottom: 40px;
+    object-fit: contain;
+    
+}
+.clock_top_content,.buy_btn{
+    margin-left: 45%;
+}
